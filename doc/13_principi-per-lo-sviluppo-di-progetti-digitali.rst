@@ -6,7 +6,7 @@ raccomandati perché ritenuti fondamentali per la realizzazione dei
 progetti contenuti nel Piano. Gli accorgimenti sono sia di natura
 pratica - per la gestione del progetto - sia di natura contrattuale e
 amministrativa per la stesura del contratto, la definizione degli
-obiettivi, e l’approvvigionamento delle risorse.
+obiettivi e l’approvvigionamento delle risorse.
 
 Infine, la predisposizione di un progetto digitale per la realizzazione
 di un nuovo sistema o per l’evoluzione di un sistema esistente,
@@ -18,7 +18,7 @@ richiede:
 
 -  una strategia per portarlo all’adozione degli utenti finali (lancio);
 
--  **un piano per mantenere il sistema aggiornato**, sicuro, e utile nel
+-  **un piano per mantenere il sistema aggiornato**, sicuro e utile nel
    tempo, oltre che per assicurarne il continuo funzionamento anche in
    caso di malfunzionamenti o disastri **(evoluzione e manutenzione)**.
 
@@ -33,15 +33,15 @@ di design per i servizi web della PA [102]_. In particolare, in fase di
 progettazione dei servizi si raccomanda di:
 
 1. **Coinvolgere sempre i cittadini, a partire dalla comprensione dei
-   loro bisogni (Strategia n°1 delle Linee guida).** Questo vuol dire
+   loro bisogni (Strategia n°1 delle Linee guida)**. Questo vuol dire
    immaginare come il cittadino (o l’utente finale) andrà a utilizzare
    il sistema e fare in modo che tutte le funzionalità siano disegnate
    intorno alle sue esigenze, consentendogli di ottenere facilmente e
-   rapidamente ciò di cui ha bisogno - senza inutili passaggi, e con
+   rapidamente ciò di cui ha bisogno - senza inutili passaggi - e con
    istruzioni comprensibili a chiunque.
 
 2. **Studiare per capire, documentare per non ripetere (Strategia n°3
-   delle Linee guida).** È necessario conoscere il contesto nel quale
+   delle Linee guida)**. È necessario conoscere il contesto nel quale
    opererà un progetto, definirne gli obiettivi, attenersi agli standard
    e fare ricerche su eventuali alternative valide a livello nazionale e
    internazionale, oltre che sulla disponibilità di strumenti e processi
@@ -52,12 +52,12 @@ progettazione dei servizi si raccomanda di:
    possibili collaborazioni che potrebbero di aggiungervi nuovo valore.
 
 3. **Applicare il principio once only (Strategia n°6 delle Linee
-   guida).** Evitare che i cittadini debbano fornire le stesse
+   guida)**. Evitare che i cittadini debbano fornire le stesse
    informazioni più di una volta. Ogni processo deve essere pensato per
    essere quanto più semplice e usabile possibile, sostituendo le
    vecchie procedure quando necessario.
 
-4. **Individuare obiettivi e metriche.** È necessario quindi individuare
+4. **Individuare obiettivi e metriche**. È necessario quindi individuare
    gli obiettivi da raggiungere, in termini di funzionalità e processi,
    insieme alle metriche in grado di valutare il successo e il
    gradimento del progetto. Ad esempio, in un sistema di fatturazione
@@ -127,7 +127,7 @@ Da un punto di vista tecnico inoltre occorre:
 
 
 1. **Rendere i dati aperti, condividere processi e strumenti
-   (Strategia n°8 delle Linee Guida).** Condividere ogni dato, ogni
+   (Strategia n°8 delle Linee Guida)**. Condividere ogni dato, ogni
    processo, ogni codice, ogni idea, ogni fallimento, ogni informazione
    è necessario e vitale per tutti i servizi, per favorire la
    trasparenza e la qualità nello sviluppo. Il codice e la
@@ -158,7 +158,7 @@ Da un punto di vista tecnico inoltre occorre:
 
 Infine, il software realizzato deve:
 
-1. **Essere strutturato in microservizi,** ovvero in componenti che
+1. **Essere strutturato in microservizi**, ovvero in componenti che
    svolgono poche funzionalità ben definite (ad es. verifica codice
    fiscale, esistenza dell’utente nella base di dati), controllate
    tramite API e facilmente riutilizzabili, in modo da poter essere
@@ -166,7 +166,7 @@ Infine, il software realizzato deve:
    (cfr. capitolo 7 “Strumenti per la generazione e la diffusione di
    servizi digitali”).
 
-2. **Esporre le API,** ovvero realizzare interfacce che consentano ai
+2. **Esporre le API**, ovvero realizzare interfacce che consentano ai
    sistemi di comunicare e interagire tra di loro facilmente e in
    maniera automatica. L’interfaccia esposta all’utente e tutte le
    funzionalità del prodotto devono essere costruite attraverso l’uso di
@@ -184,24 +184,24 @@ Infine, il software realizzato deve:
    accompagnati da un’esaustiva descrizione dei campi e del loro
    significato (metadati).
 
-5. **Utilizzare solide strategie di testing e qualificazione,** ovvero
+5. **Utilizzare solide strategie di testing e qualificazione**, ovvero
    utilizzare test di unità, test funzionali e *fuzz test* per
    verificare il codice ed effettuare *stress test* per verificare il
    carico che il prodotto sarà in grado di sostenere. Si consiglia
-   inoltre l’utilizzo di strategie di analisi statica del codice, e
+   inoltre l’utilizzo di strategie di analisi statica del codice e
    l’auditing del risultato per affrontare i problemi relativi alla
    sicurezza.
 
-6. **Utilizzare best practices di sicurezza** come, ad esempio,
+6. **Utilizzare best practice di sicurezza** come, ad esempio,
    criptare le password e le comunicazioni via rete.
 
-7. **Includere tutta la documentazione necessaria,** ovvero includere
+7. **Includere tutta la documentazione necessaria**, ovvero includere
    documentazione sulla struttura dei dati utilizzati (campi, tabelle,
    ecc.), sul funzionamento e l’utilizzo del software, nonché
    documentazione sul funzionamento del prodotto, su come mantenerlo,
    aggiornarlo e monitorarlo.
 
-8. **Appartenere alla PA,** ovvero il contratto deve specificare che
+8. **Appartenere alla PA**, ovvero il contratto deve specificare che
    tutti i diritti sul prodotto realizzato, dal codice alla
    documentazione, dai nomi di dominio alle licenze, librerie di terze
    parti o brevetti registrati sul prodotto appartengono alla PA. In
@@ -209,7 +209,7 @@ Infine, il software realizzato deve:
    avvalendosi di fornitori diversi da quelli che lo hanno sviluppato in
    origine.
 
-9. **Essere messo a disposizione di altre PA,** ovvero registrato nel
+9. **Essere messo a disposizione di altre PA**, ovvero registrato nel
    *market place* di Consip e, quando possibile, messo a disposizione
    liberamente completo di sorgenti e documentazione, con licenze aperte
    che ne consentano l’utilizzo, la modifica o l’evoluzione da parte di
@@ -223,20 +223,20 @@ realizzati da terze parti o sistemi preesistenti, si consiglia di:
    software, account di prova, o simulatori, utilizzabili liberamente da
    terze parti per verificare l’integrazione tra componenti.
 
-2. **Utilizzare e** documentare processi per coordinare gli
-   aggiornamenti software che prevedano dei meccanismi per annunciare il
+2. **Utilizzare e documentare processi per coordinare gli
+   aggiornamenti software** che prevedano dei meccanismi per annunciare il
    rilascio imminente di nuove versioni (newsletter, forum, …), il
-   rilascio in ambienti di testing, e solo a seguito di verifica
+   rilascio in ambienti di testing e solo a seguito di verifica
    funzionale con gli utenti del sistema e software di terze parti in
    ambienti di testing, il rilascio in produzione.
 
 3. **Mettere a disposizione librerie e kit di sviluppo**, ovvero esempi
    di codice e componenti software pronti per essere utilizzati da terze
-   parti nei loro prodotti per integrarsi con i vostri sistemi. Questo
+   parti nei loro prodotti per integrarsi con i sistemi della PA. Questo
    facilita il riuso, migliora la qualità del codice, diminuisce i costi
    di manutenzione e aggiornamento, diminuisce significativamente il
    rischio di incompatibilità ed implementazioni non conformi alle
-   specifiche, e diminuisce i costi di sviluppo per ognuna delle terze
+   specifiche e diminuisce i costi di sviluppo per ognuna delle terze
    parti.
 
 Lancio del progetto
@@ -245,7 +245,7 @@ Lancio del progetto
 Nello stabilire un percorso per portare all’adozione del progetto, la PA
 deve:
 
-1. **Individuare la strategia di adozione di minor resistenza,** ovvero
+1. **Individuare la strategia di adozione di minor resistenza**, ovvero
    trovare il modo più semplice, veloce e con minore impatto perché il
    prodotto possa iniziare ad essere adottato, anche in forma limitata o
    incompleta. Anziché introdurre un grande cambiamento in un unico
@@ -253,7 +253,7 @@ deve:
    individualmente più semplici e meno rischiosi - verso il
    raggiungimento dell’obiettivo finale.
 
-2. **Individuare una strategia di utilizzo incrementale,** ovvero
+2. **Individuare una strategia di utilizzo incrementale**, ovvero
    trovare quei meccanismi che consentano l’adozione del prodotto, prima
    da parte di un numero ristretto di utenti, poi di un numero più ampio
    e, infine, da parte di tutti gli utenti. È importante evidenziare
@@ -265,7 +265,7 @@ deve:
    le priorità e iniziare a fornire i benefici derivanti
    dall’innovazione, seppure con un prodotto parziale.
 
-3. **Individuare un piano per il lancio completo del prodotto,** ovvero
+3. **Individuare un piano per il lancio completo del prodotto**, ovvero
    per dismettere il prodotto precedente. Per progetti di grande
    dimensione, è importante evidenziare che una strategia di lancio può
    richiedere non solo la realizzazione del prodotto, ma campagne di
@@ -274,7 +274,7 @@ deve:
    importante per portare all’adozione del prodotto stesso.
 
 4. **Comunicare efficacemente, spesso, ovunque (Strategia n°5 delle
-   Linee Guida).** Le Pubbliche amministrazioni devono comunicare in
+   Linee Guida)**. Le Pubbliche amministrazioni devono comunicare in
    maniera chiara l’utilità e i prerequisiti del servizio, oltre a tutte
    le informazioni relative alla protezione dei dati personali, alla
    tutela della vita privata e alla sicurezza informatica, raggiungendo
@@ -294,17 +294,17 @@ progetto, si raccomanda alla PA di:
    garantire la compatibilità del software con nuove tecnologie e la
    conformità con l’evoluzione normativa.
 
-2. **Assicurare un piano per la continua evoluzione del prodotto,**
+2. **Assicurare un piano per la continua evoluzione del prodotto**,
    ovvero stabilire o avere una strategia per migliorare il prodotto
    dopo il lancio, aggiungere funzionalità, correggere problematiche e,
    più in generale, consentirne l’aggiornamento.
 
 3. **Assicurare una strategia di disaster recovery e business
-   continuity,** ovvero assicurarsi che, in caso di malfunzionamento o
+   continuity**, ovvero assicurarsi che, in caso di malfunzionamento o
    disastro, i dati critici non vengano persi e sia possibile continuare
    nell’erogazione dei servizi, seppur in modalità ridotta.
 
-4. **Assicurare la continua verifica dei parametri di funzionamento,**
+4. **Assicurare la continua verifica dei parametri di funzionamento**
    come, ad esempio, il monitoraggio del software (errori, richieste,
    latenza), audit periodici per garantirne la sicurezza, ecc.
 
